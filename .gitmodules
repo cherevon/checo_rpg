@@ -1,0 +1,3 @@
+[submodule "external/checo"]
+	path = external/checo
+	url = https://github.com/cherevon/checo
