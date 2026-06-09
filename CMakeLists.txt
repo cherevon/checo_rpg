@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.27)
 
-project("checo_rpg_libs")
+project("checo_rpg_repo")
+
+# Options
+option(BUILD_SHARED_LIBS "Build using shared libraries" OFF)
 
 # Set output directories for binaries and libraries
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
